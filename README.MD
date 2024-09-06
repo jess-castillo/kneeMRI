@@ -32,14 +32,23 @@ MRI is used to diagnose how well you responded to treatment as well as detecting
 ## File Attributes
 
 `READ.ME` - file contains some basic information regarding this archive
+
 `example.py` - Python script used to demonstrate how to access the files
+
 `metadata.csv` - comma-delimited (csv) data containing descriptions of distinct volumes (header attribute information included)
+
 `volumetric_data` - directory containing all knee MR volumes, archived using 7-zip lossless file compression
+
 `|-example.pck `- an example Python .pck file (just to inspect whether one wants to be bothered downloading the archive)
+
 `|-vol01.7z` - compressed independent archive (1/10), containing 92 cases
+
 `|-vol02.7z` - compressed independent archive (2/10), containing 92 cases
+
 |…
+
 `|-vol10.7z` - compressed independent archive (10/10), containing the remaining 89 cases
+
 
 ## Columns Description
 
